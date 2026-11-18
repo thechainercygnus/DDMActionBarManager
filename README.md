@@ -16,6 +16,22 @@ Keep intentional downranks on the buttons where you use them.
 The addon checks spells placed directly on action bars. Macros, items, and
 pet actions are outside its scope.
 
+## In-game examples
+
+### New rank alert
+
+After you learn Healing Wave Rank 3, the chat alert points to the button
+that still has Rank 2.
+
+![Chat alert for Healing Wave Rank 3 on Action Bar 3, Button 2](screenshots/new-rank-chat-alert.png)
+
+### Rank upgrade window
+
+Open `/ddmabm` to review the slot. Choose **Replace** to upgrade it or
+**Keep rank** to keep Rank 2 on that button.
+
+![Rank upgrade window showing Healing Wave Rank 2 with Replace and Keep rank buttons](screenshots/rank-upgrade-window.png)
+
 ## Install on Windows
 
 1. **Close WoW: Forever.** Leave the Battle.net app open.
@@ -48,7 +64,6 @@ pet actions are outside its scope.
 folder for the same game version you launched. Then open the pasted
 **DDMActionBarManager** folder and check that it contains the addon files
 directly, with no extra folder in between.
-
 
 ## Quick start
 
