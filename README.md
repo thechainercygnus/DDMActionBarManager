@@ -27,8 +27,14 @@ that still has Rank 2.
 
 ### Rank upgrade window
 
-Open `/ddmabm` to review the slot. Choose **Replace** to upgrade it or
-**Keep rank** to keep Rank 2 on that button.
+Left-click the **DDM Action Bar Manager** minimap icon to review your
+spell ranks. Look for the blue lightning bolt at the upper left of the
+minimap in this example.
+
+![Minimap with the blue lightning bolt addon icon at the upper left](screenshots/minimap-icon.png)
+
+Choose **Replace** to upgrade Healing Wave to Rank 3 or **Keep rank** to
+leave Rank 2 on that button.
 
 ![Rank upgrade window showing Healing Wave Rank 2 with Replace and Keep rank buttons](screenshots/rank-upgrade-window.png)
 
@@ -57,8 +63,9 @@ Open `/ddmabm` to review the slot. Choose **Replace** to upgrade it or
 
 5. **Start the game and check it loaded.** On the character selection
    screen, click **AddOns** and make sure **DDMActionBarManager** is checked.
-   Log in and type /ddmabm in chat. If the rank window opens, the addon
-   loaded successfully, even if the list is empty.
+   Log in and left-click the addon's blue lightning bolt icon on the
+   minimap. If the rank window opens, the addon loaded successfully,
+   even if the list is empty.
 
 **If the addon is missing:** Check that you copied it into the **AddOns**
 folder for the same game version you launched. Then open the pasted
@@ -67,15 +74,13 @@ directly, with no extra folder in between.
 
 ## Quick start
 
-1. Left-click the minimap button or type /ddmabm to see which spells can be
-   upgraded.
+1. Left-click the minimap icon to see which spells can be upgraded.
 2. Choose **Replace** to upgrade a slot while out of combat with an empty
    cursor. Choose **Keep rank** to retain an intentional downrank on that
    slot. **Reset kept ranks** clears those choices for your character.
-3. Right-click the minimap button and open **Settings**. You can also type
-   /ddmabm settings, including when the minimap button is hidden.
+3. Right-click the minimap icon and open **Settings**.
 
-Left-drag the minimap button to reposition it. Its position, your settings,
+Left-drag the minimap icon to reposition it. Its position, your settings,
 and your kept ranks are saved per character.
 
 ## Settings
@@ -83,5 +88,5 @@ and your kept ranks are saved per character.
 | Setting | Default | What it does |
 | --- | --- | --- |
 | **Auto-replace lower ranks** | Off | Upgrades existing and newly detected lower ranks in place. Respects **Keep rank** and waits until you are out of combat with an empty cursor. |
-| **Show minimap button** | On | Shows the minimap launcher. Use /ddmabm settings to restore it after hiding it. |
+| **Show minimap button** | On | Shows the minimap icon. If you hide it, type `/ddmabm settings` in chat and turn this setting back on. |
 | **Announce newly learned ranks in chat** | On | Reports lower ranks still on your bars after you learn a higher one. |
