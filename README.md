@@ -16,16 +16,39 @@ Keep intentional downranks on the buttons where you use them.
 The addon checks spells placed directly on action bars. Macros, items, and
 pet actions are outside its scope.
 
-## Installation
+## Install on Windows
 
-Install **DDMActionBarManager** for WoW: Forever. For a manual install,
-extract or copy the folder containing DDMActionBarManager.toc so it sits
-directly inside your game client's AddOns folder:
+1. **Close WoW: Forever.** Leave the Battle.net app open.
+2. **Unzip the addon.** Open your Downloads folder, right-click the addon
+   ZIP file, choose **Extract All**, then click **Extract**. In the extracted
+   files, find the folder named **DDMActionBarManager**. If you open it, you
+   should see **DDMActionBarManager.toc** and **DDMActionBarManager.lua**.
+   If you see another folder with the same name, use the inner folder.
+3. **Find the game's AddOns folder.** In Battle.net, select the
+   **WoW: Forever** game version you play. Click the gear next to **Play**
+   and select **Show in Explorer**. If it opens the main World of Warcraft
+   folder, open the folder for your Forever installation. Then open
+   **Interface**, followed by **AddOns**.
+4. **Copy the addon into the game.** Go back to the extracted
+   **DDMActionBarManager** folder, right-click it, and choose **Copy**.
+   Return to the game's **AddOns** folder, right-click an empty space, and
+   choose **Paste**. The folder you just pasted should contain the two
+   files from step 2 directly.
 
-    Interface/AddOns/DDMActionBarManager/DDMActionBarManager.toc
+   The finished location should look like this:
 
-Restart the game or run /reload, then check that the addon is enabled on
-the character selection screen or in the in-game AddOns list.
+       Interface\AddOns\DDMActionBarManager\DDMActionBarManager.toc
+
+5. **Start the game and check it loaded.** On the character selection
+   screen, click **AddOns** and make sure **DDMActionBarManager** is checked.
+   Log in and type /ddmabm in chat. If the rank window opens, the addon
+   loaded successfully, even if the list is empty.
+
+**If the addon is missing:** Check that you copied it into the **AddOns**
+folder for the same game version you launched. Then open the pasted
+**DDMActionBarManager** folder and check that it contains the addon files
+directly, with no extra folder in between.
+
 
 ## Quick start
 
