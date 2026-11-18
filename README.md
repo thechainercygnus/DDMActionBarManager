@@ -31,7 +31,7 @@ Left-click the **DDM Action Bar Manager** minimap icon to review your
 spell ranks. Look for the blue lightning bolt at the upper left of the
 minimap in this example.
 
-![Minimap with the blue lightning bolt addon icon at the upper left](screenshots/minimap-icon.png)
+<img src="screenshots/minimap-icon-annotated.png" width="303" alt="Yellow arrow pointing to the blue lightning-bolt addon icon at the upper left of the minimap">
 
 Choose **Replace** to upgrade Healing Wave to Rank 3 or **Keep rank** to
 leave Rank 2 on that button.
