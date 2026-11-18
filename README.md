@@ -1,35 +1,49 @@
 # DDMActionBarManager
 
-DDMActionBarManager finds direct spell slots with a higher rank learned on
-your WoW: Forever character.
+Find outdated spell ranks on your **World of Warcraft: Forever** action
+bars and upgrade them to the highest rank your character has learned.
+Keep intentional downranks on the buttons where you use them.
 
-## Install
+## What it does
 
-Copy the inner **DDMActionBarManager** folder into the client's AddOns
-directory, then restart the game or run /reload. From the shared AddOns
-development folder, you can also run:
+- Scans all eight standard action bars, including hidden bars and alternate
+  pages. Each result shows the bar, button, current rank, and available rank.
+- Alerts you in chat when you learn a higher rank and still have an older
+  rank on a bar.
+- Replaces a spell in the same slot, so you can keep using the same button
+  or keybind.
 
-    .\Install-DevelopmentAddOn.ps1 DDMActionBarManager
+The addon checks spells placed directly on action bars. Macros, items, and
+pet actions are outside its scope.
 
-## Use
+## Installation
 
-Left-click the minimap button or type /ddmabm to review action slots with
-a higher learned rank available. Right-click the button and open
-**Settings** to control chat alerts and minimap button visibility. Use
-/ddmabm settings to show the button again if you hide it. Left-drag the
-button to move it around the minimap.
-Choose **Replace** out of combat to upgrade a slot, or **Keep rank** to
-keep an intentional downrank. **Reset kept ranks** clears those choices
-for the current character. The addon also alerts you in chat when it
-detects a newly learned rank with older ranks still on your bars.
+Install **DDMActionBarManager** for WoW: Forever. For a manual install,
+extract or copy the folder containing DDMActionBarManager.toc so it sits
+directly inside your game client's AddOns folder:
 
+    Interface/AddOns/DDMActionBarManager/DDMActionBarManager.toc
 
-**Auto-replace lower ranks** is off by default. Enable it in Settings to
-upgrade existing and newly detected lower ranks automatically. It respects
-**Keep rank** choices and waits until you are out of combat and the cursor
-is empty.
+Restart the game or run /reload, then check that the addon is enabled on
+the character selection screen or in the in-game AddOns list.
 
-## Layout
+## Quick start
 
-The inner DDMActionBarManager folder contains the TOC and Lua files
-installed in the game. Repository documentation lives at the root.
+1. Left-click the minimap button or type /ddmabm to see which spells can be
+   upgraded.
+2. Choose **Replace** to upgrade a slot while out of combat with an empty
+   cursor. Choose **Keep rank** to retain an intentional downrank on that
+   slot. **Reset kept ranks** clears those choices for your character.
+3. Right-click the minimap button and open **Settings**. You can also type
+   /ddmabm settings, including when the minimap button is hidden.
+
+Left-drag the minimap button to reposition it. Its position, your settings,
+and your kept ranks are saved per character.
+
+## Settings
+
+| Setting | Default | What it does |
+| --- | --- | --- |
+| **Auto-replace lower ranks** | Off | Upgrades existing and newly detected lower ranks in place. Respects **Keep rank** and waits until you are out of combat with an empty cursor. |
+| **Show minimap button** | On | Shows the minimap launcher. Use /ddmabm settings to restore it after hiding it. |
+| **Announce newly learned ranks in chat** | On | Reports lower ranks still on your bars after you learn a higher one. |
