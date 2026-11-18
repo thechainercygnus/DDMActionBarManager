@@ -1,0 +1,8 @@
+## Interface: 16001
+## Title: DDMActionBarManager
+## Notes: Find and replace lower ranks on your action bars.
+## Author: Bryce Jenkins
+## Version: 0.1.0
+## SavedVariablesPerCharacter: DDMActionBarManagerDB
+
+DDMActionBarManager.lua
