@@ -1,5 +1,7 @@
 # DDMActionBarManager
 
+Part of a set of [WoW: Forever tools](https://github.com/thechainercygnus).
+
 Find outdated spell ranks on your **World of Warcraft: Forever** action
 bars and upgrade them to the highest rank your character has learned.
 Keep intentional downranks on the buttons where you use them.
@@ -90,3 +92,8 @@ and your kept ranks are saved per character.
 | **Auto-replace lower ranks** | Off | Upgrades existing and newly detected lower ranks in place. Respects **Keep rank** and waits until you are out of combat with an empty cursor. |
 | **Show minimap button** | On | Shows the minimap icon. If you hide it, type `/ddmabm settings` in chat and turn this setting back on. |
 | **Announce newly learned ranks in chat** | On | Reports lower ranks still on your bars after you learn a higher one. |
+
+## License
+
+[MIT](LICENSE). World of Warcraft names and game data belong to Blizzard
+Entertainment. This project isn't affiliated with or endorsed by Blizzard.
