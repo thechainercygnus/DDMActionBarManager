@@ -8,7 +8,7 @@ A WoW: Forever addon (Lua 5.1, interface 16001) that finds lower spell ranks on 
 action bars and replaces them with the highest learned rank, with a minimap button,
 settings and per-slot "Keep rank" choices saved in `DDMActionBarManagerDB`
 (SavedVariablesPerCharacter). All code is in `DDMActionBarManager/DDMActionBarManager.lua`.
-It's in the AddOn Manager's catalog (`../WoWForeverAddonManager/addons.json`).
+It's in the AddOn Manager's catalog (`../DDMAddOnManager/addons.json`).
 
 ## Commands
 
